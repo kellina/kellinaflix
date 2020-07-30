@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import CadastroVideo from './pages/Cadastro/Video'
+import CadastroVideo from './pages/Cadastro/Video';
 import CadastroCategoria from './pages/Cadastro/Categoria';
-
 
 ReactDOM.render(
   <BrowserRouter>
@@ -18,6 +17,5 @@ ReactDOM.render(
     </Switch>
   </BrowserRouter>,
 
-  document.getElementById('root')
+  document.getElementById('root'),
 );
-
